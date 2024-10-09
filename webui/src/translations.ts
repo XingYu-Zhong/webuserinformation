@@ -1,6 +1,6 @@
 export const translations = {
   zh: {
-    title: '加入内测队列计划',
+    title: '加入chatwithrepo内测队列计划',
     email: '电子邮箱',
     phone: '电话（选填）',
     remarks: '备注（选填）',
@@ -11,7 +11,7 @@ export const translations = {
     remarksPlaceholder: '请输入任何其他信息或期望',
   },
   en: {
-    title: 'Join Beta Testing Program',
+    title: 'Join chatwithrepo Beta Testing Program',
     email: 'Email',
     phone: 'Phone (optional)',
     remarks: 'Remarks (optional)',

@@ -64,7 +64,7 @@ def get_beta_tester(email: str, db: Session = Depends(get_db)):
 # 创建 main 函数来启动应用
 def main():
     # 使用 uvicorn 启动 FastAPI 应用，指定主机地址和端口
-    uvicorn.run("main:app", host="127.0.0.1", port=18009, reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=18009, reload=True)
 
 # 检查是否是主程序入口
 if __name__ == "__main__":
